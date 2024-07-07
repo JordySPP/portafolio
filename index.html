@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio de Proyectos</title>
+    <!--<link rel="stylesheet" href="css/style.css" /> -->
+    <link rel="stylesheet" href="less/estilo.less" />
+    <script src="js/modal.js"></script>
+    <script src="js/app.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Protafolio de Jordy Steven Pineda</h1>
+        <img src="img/perfil.jpg" alt="Foto de Perfil" />
+        <nav>
+            <ul>
+                <b>
+                    <li><a href="#sobremi">Sobre Mí</a></li>
+                </b>
+                <b>
+                    <li><a href="#proyectos">Mis Proyectos</a></li>
+                </b>
+                <b>
+                    <li><a href="#contactame">Contactame</a></li>
+                </b>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="sobremi">
+            <h2>Sobre Mí</h2>
+            <p>
+                Desde temprana edad, siempre he tenido un interés profundo en la tecnologia al igual que el arte. Este
+                interés me llevó a estudiar ingenieria en sistemas y proximamente alguna especializacion.
+                En este espacio, encontrarás una selección de mis proyectos realizados a lo largo de mi carrera,
+                realizados de manera grupal o indivual.
+            </p>
+        </section>
+        <section id="proyectos">
+            <h2>Proyectos Realizados</h2>
+            <section>
+                <h3>Proyectos Realizado</h3>
+                <section id="sitiosWebProjects">
+                </section>
+            </section>
+        </section>
+        <section id="contactame">
+            <h2>Contactame</h2>
+            <section>
+                <form action="index.html" method="post">
+                    <label for="nombre">Nombre:
+                        <input type="text" name="nombre" id="nombre" required autocapitalize="on"
+                            placeholder="Nombre completo" />
+                    </label>
+                    <label for="correo">Correo:
+                        <input type="email" name="correo" id="correo" required autocapitalize="off"
+                            placeholder="Email" />
+                    </label>
+                    <label for="birthdate">
+                        Fecha de Nacimiento:
+                        <input type="date" name="birthdate" id="birthdate" required autocomplete="on" />
+                    </label>
+                    <label for="mensaje">Mensaje:
+                        <textarea name="mensaje" id="mensaje" required placeholder="Comentario"></textarea>
+                    </label>
+                    <br />
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <p>Jordy Steven Pineda &copy; 2024</p>
+        </section>
+        <section>
+            <ol>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">X (late Twitter)</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Discord</a></li>
+                <li><a href="#">Slack</a></li>
+            </ol>
+        </section>
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="#sobremi">Sobre Mí</a></li>
+                    <li><a href="#proyectos">Mis Proyectos</a></li>
+                    <li><a href="#contactame">Contactame</a></li>
+                </ul>
+            </nav>
+        </section>
+    </footer>
+</body>
+
+</html>

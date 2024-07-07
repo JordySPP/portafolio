@@ -1,0 +1,93 @@
+
+main {
+    padding: @default-padding;
+
+    #sobremi {
+        background-color: #d7b7f3;
+
+        h2 {
+            padding: 10px;
+            text-align: center;
+        }
+    }
+
+    #proyectos h2 {
+        padding: 10px;
+        text-align: center;
+    }
+
+    #proyectos>section {
+        text-align: center;
+        padding: @default-padding;
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: @default-padding;
+        }
+    }
+
+    #proyectos>section:nth-child(2n) {
+        background-color: rgb(251, 218, 255);
+    }
+
+    #contactame {
+        padding: @default-padding;
+        text-align: center;
+
+        form {
+            margin: 0rem auto;
+            box-shadow: 0px 0px 10px #000;
+            padding: @default-padding;
+            max-width: 920px;
+            text-align: initial;
+
+            label {
+                display: block;
+                font-weight: bold;
+                margin-bottom: 0.5rem;
+
+            }
+        }
+
+        #contactame form input,
+        #contactame form textarea {
+            display: block;
+            min-width: 280px;
+            font-size: @default-padding;
+            padding: 0.25rem 0.5rem;
+            border: none;
+            border-bottom: 1px solid #000;
+            margin-top: 0.25rem;
+        }
+    }
+
+}
+
+.card {
+    width: 232px;
+    margin: 0.5rem 0.75rem;
+    box-shadow: 3px 3px 5px #000;
+    background-color: #ffffff;
+
+    .done {
+        background-color: #71d594;
+    }
+
+    img {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+    }
+
+    h4 {
+        padding: 0.25rem 0.75rem;
+    }
+
+    p {
+        padding: 0.25rem 0.75rem;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 0.8rem;
+    }
+}
